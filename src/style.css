@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
+}
+
+.meme-container {
+  position: relative;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.background {
+  width: 100%;
+  display: block;
+}
+
+/* Изображения (положения по образцу твоего мема) */
+.smile {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  width: 250px;
+}
+
+.bear {
+  position: absolute;
+  top: 180px;
+  right: 100px;
+  width: 300px;
+}
+
+.shark-left {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  width: 80px;
+}
+
+.shark-right {
+  position: absolute;
+  top: 80px;
+  right: 40px;
+  width: 80px;
+}
+
+.fishing-line {
+  position: absolute;
+  top: 160px;
+  left: 480px;
+  width: 250px;
+}
+
+.shock-emoji {
+  position: absolute;
+  bottom: 140px;
+  left: 40px;
+  width: 100px;
+}
+
+/* Тексты */
+.text {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.top-left {
+  top: 20px;
+  left: 40px;
+}
+
+.top-center {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-right {
+  top: 20px;
+  right: 40px;
+}
+
+.center {
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-left {
+  bottom: 40px;
+  left: 40px;
+}
+
+.bottom-center {
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.bottom-right {
+  bottom: 40px;
+  right: 40px;
+}
